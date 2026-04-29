@@ -40,7 +40,6 @@ A Convolutional Neural Network (CNN) is used with:
 git clone <your-repo-link>
 cd face-emoji-project
 
-
 2. Install dependencies
 pip install numpy opencv-python tensorflow keras pillow
 
