@@ -37,5 +37,34 @@ A Convolutional Neural Network (CNN) is used with:
 
 ### 1. Clone repository
 ```bash
+
+2. Install dependencies
+pip install numpy opencv-python tensorflow keras pillow
+
+3. Run the project
+python app.py
+
+📂 Project Structure
+face-emoji-project/
+│
+├── app.py
+├── model.weights.h5
+├── emojis/
+│   ├── angry.png
+│   ├── happy.png
+│   ├── sad22.png
+│   ├── surprised.png
+│   └── ...
+
+📸 Output
+Live webcam feed with detected face
+Emotion label on screen
+Matching emoji displayed in real-time
+
+🔮 Future Improvements
+Improve model accuracy
+Add more emotions
+Mobile app version
+Faster inference optimization
 git clone <your-repo-link>
 cd face-emoji-project
