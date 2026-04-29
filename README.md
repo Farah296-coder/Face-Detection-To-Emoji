@@ -1,0 +1,2 @@
+# Face Detection To Emoji 
+A Face Detection to Emoji project uses computer vision and AI techniques to detect human faces from images or live camera input, analyze facial expressions such as happiness, sadness, or surprise, and automatically replace or represent the detected face with a matching emoji. The project combines image processing, face detection algorithms, and emotion recognition to create an interactive and fun real-time application.
