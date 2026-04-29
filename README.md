@@ -1,2 +1,70 @@
-# Face Detection To Emoji 
-A Face Detection to Emoji project uses computer vision and AI techniques to detect human faces from images or live camera input, analyze facial expressions such as happiness, sadness, or surprise, and automatically replace or represent the detected face with a matching emoji. The project combines image processing, face detection algorithms, and emotion recognition to create an interactive and fun real-time application.
+# 😄 Face Detection to Emoji Project
+
+## 📌 Project Overview
+This project detects a human face using a webcam in real-time, analyzes facial expressions using a deep learning CNN model, and displays a matching emoji based on the detected emotion. It also shows the predicted emotion name on a Tkinter GUI.
+
+## ✨ Features
+- Real-time face detection using webcam  
+- Emotion recognition using a CNN model (Keras/TensorFlow)  
+- Emoji display based on detected emotion  
+- GUI interface built with Tkinter  
+- Supports 7 emotions: Angry, Disgusted, Fearful, Happy, Neutral, Sad, Surprised  
+
+## 🧠 Technologies Used
+- Python  
+- OpenCV (Face detection)  
+- TensorFlow / Keras (Deep Learning model)  
+- NumPy  
+- Tkinter (GUI)  
+- PIL (Image processing)  
+
+## 🧩 Model Architecture
+A Convolutional Neural Network (CNN) is used with:
+- Conv2D layers  
+- MaxPooling layers  
+- Dropout layers  
+- Dense fully connected layers  
+- Softmax output for 7 emotion classes  
+
+## ⚙️ How It Works
+1. Webcam captures live video  
+2. Haar Cascade detects face  
+3. Image is preprocessed (48x48 grayscale)  
+4. CNN model predicts emotion  
+5. Matching emoji is displayed in GUI  
+
+## 🚀 Installation
+
+### 1. Clone repository
+```bash
+git clone <your-repo-link>
+cd face-emoji-project
+
+2. Install dependencies
+pip install numpy opencv-python tensorflow keras pillow
+
+3. Run the project
+python app.py
+
+📂 Project Structure
+face-emoji-project/
+│
+├── app.py
+├── model.weights.h5
+├── emojis/
+│   ├── angry.png
+│   ├── happy.png
+│   ├── sad22.png
+│   ├── surprised.png
+│   └── ...
+
+📸 Output
+Live webcam feed with detected face
+Emotion label on screen
+Matching emoji displayed in real-time
+
+🔮 Future Improvements
+Improve model accuracy
+Add more emotions
+Mobile app version
+Faster inference optimization
